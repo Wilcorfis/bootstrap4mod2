@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Hoteles</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>Flexbox Hoteles</h1>
+        <a href="index.html">Sistema de grillas</a>
+    </div>
+    <div class="container">
+        <!--ajustar los elelmentos dentro del ancho del contenedor-->
+        <div class="d-flex flex-wrap flex-row-reverse">
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <p>
+                    <h3>¿Como estas</h3>
+                    <p> este es el curso de diseñando con BootStrap </p>
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="/">facebook</a>
+                <a href="/">twittter</a>
+                <a href="/">instagram</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <h3>Oficina General</h3>
+                    <p>medellin</p>
+                    <p>+57 3168649228</p>
+                    <p>wilmerandres505@gmail.com</p>
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="/">Nososotros</a>
+                <a href="/">Precios</a>
+                <a href="/">Terminos</a>
+                <a href="/">Contacto</a>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
