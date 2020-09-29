@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Hoteles</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Hoteles</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item "><a class="nav-link" href="flexbox.html">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#">Nosotros</a></li>
+                <li class="nav-item "><a class="nav-link" href="#">Precios</a></li>
+                <li class="nav-item "><a class="nav-link" href="#">Terminos</a></li>
+                <li class="nav-item "><a class="nav-link" href="#">Contacto</a></li>
+            </ul>
+
+
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h1>Flexbox Hoteles</h1>
+        <a href="index.html">Sistema de grillas</a>
+    </div>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./flexbox.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+            </ol>
+
+        </nav>
+        <h1>Dejame tu comentario</h1>
+        <form action="">
+            <div class="form-row">
+                <div class="col-sm-6 form-group">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" class="form-control" placeholder="Ingrese su nombre">
+                </div>
+                <div class="col-sm-6 form-group">
+                    <label for="apellido">Apellido</label>
+                    <input id="apellido" type="text" class="form-control" placeholder="Ingrese su apellido">
+
+                </div>
+                <div class="form-group col-sm-12">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" class="form-control" placeholder="Ingrese su email">
+
+                </div>
+            </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-9 ">
+                        <label for="domicilio">Domicilio</label>
+                        <input id="domicilio" type="text" class="form-control" placeholder="Ingrese su domicilio">
+                    </div>
+                    <div class="col-sm-3 form-group">
+                        <label for="provincia">Provincia</label>
+                        <select id="provincia" class="form-control">
+                            <option selected>Capital Federal</option>
+                            <option>Buenos aires</option>
+                            <option>Cordoba</option>
+                            <option>Santa Fe</option>
+                            <option>Mendoza</option>
+                        </select>
+
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label for="comentario"></label>
+                    <textarea name="" id="comentario" class="form-control" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Quiero que me contacten
+                        </label>
+
+                    </div>                
+                </div>
+                <button type="submit" class="btn btn-primary"> Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="/">facebook</a>
+                <a href="/">twittter</a>
+                <a href="/">instagram</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <h3>Oficina General</h3>
+                    <p><span class="oi oi-home footer-address-icon"></span>medellin</p>
+                    <p><span class="oi oi-phone footer-address-icon"></span>+57 3168649228</p>
+                    <p><span class="oi oi-inbox footer-address-icon"></span>wilmerandres505@gmail.com</p>
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="/">Nososotros</a>
+                <a href="/">Precios</a>
+                <a href="/">Terminos</a>
+                <a href="/">Contacto</a>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
